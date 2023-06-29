@@ -1,4 +1,4 @@
-package createpattern.fp;
+package createpattern;
 
 public interface Shape {
 

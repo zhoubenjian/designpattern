@@ -1,4 +1,6 @@
-package createpattern.fp;
+package createpattern;
+
+import createpattern.Shape;
 
 public class Square implements Shape {
 

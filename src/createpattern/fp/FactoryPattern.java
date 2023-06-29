@@ -1,5 +1,7 @@
 package createpattern.fp;
 
+import createpattern.Shape;
+
 /**
  * 工厂模式（Factory Pattern）
  */
