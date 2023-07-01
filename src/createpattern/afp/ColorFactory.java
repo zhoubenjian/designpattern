@@ -7,19 +7,12 @@ public class ColorFactory extends AbstractFactory {
     @Override
     public Color getColor(String colorType) {
 
-        switch (colorType) {
-            case "red":
-                return new Red();
-
-            case "green":
-                return new Green();
-
-            case "blue":
-                return new Blue();
-
-            default:
-                return null;
-        }
+        return switch (colorType) {
+            case "red" -> new Red();
+            case "green" -> new Green();
+            case "blue" -> new Blue();
+            default -> null;
+        };
     }
 
     @Override
